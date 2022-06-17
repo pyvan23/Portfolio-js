@@ -16,7 +16,7 @@ export const NavBar = () => {
     },
     {
       id: 3,
-      link: "portfolio",
+      link: "proyects",
     },
     {
       id: 4,
