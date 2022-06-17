@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { FaTimes, FaBars } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 export const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -28,9 +29,20 @@ export const NavBar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-20 text-white bg-black px-4 fixed">
+    <div className="flex justify-between items-center w-full h-20 text-white bg-black  fixed">
       <div>
-        <h1 className="text-3xl">Ivan</h1>
+      <ul className="flex flex-row px-4  ">
+        <li className="px-2 hover:scale-105 duration-200">
+          <a href="" className="flex justify-between items-center w-full text-white ">
+            <FaLinkedin size={30} />
+          </a>
+        </li>
+        <li className="hover:scale-105 duration-200">
+          <a href=""   className="flex  justify-between items-center w-full text-white ">
+            <FaGithub size={30} />
+          </a>
+        </li>
+      </ul>
       </div>
 
       <ul className="hidden md:flex">
