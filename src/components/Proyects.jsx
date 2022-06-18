@@ -27,11 +27,11 @@ export const Proyects = () => {
                 alt="proyects"
                 className="rounded-md duration-100 hover:scale-105"
               />
-              <div className="flex items-center justify-center">
-                <button className="bg-gray-600 hover:bg-black text-white font-bold py-2 px-4 rounded">
+               <div className="flex items-center justify-center">
+                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   Demo
                 </button>
-                <button className="bg-gray-600 hover:bg-black text-white font-bold py-2 px-4 rounded  m-4 ">
+                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   Code
                 </button>
               </div>
