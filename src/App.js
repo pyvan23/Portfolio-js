@@ -1,4 +1,5 @@
 import { About } from "./components/About";
+import { Contact } from "./components/Contact";
 import { Home } from "./components/Home";
 import { LinkSocial } from "./components/LinkSocial";
 import { NavBar } from "./components/NavBar";
@@ -11,6 +12,7 @@ function App() {
       <Home />
       <About />
       <Proyects/>
+      <Contact />
       <LinkSocial />
     </div>
   );

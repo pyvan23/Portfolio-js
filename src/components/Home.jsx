@@ -1,6 +1,6 @@
 import React from "react";
 import html5Img from "../assets/html5.png";
-import { FaArrowCircleRight } from "react-icons/fa";
+
 
 export const Home = () => {
   return (
@@ -19,14 +19,7 @@ export const Home = () => {
             Alias, inventore, exercitationem iste amet possimus dolorem veniam
             culpa, corporis minima nisi sed ea doloribus.
           </p>
-          <div>
-            <button>
-              Proyects
-              <span>
-                <FaArrowCircleRight />
-              </span>
-            </button>
-          </div>
+          
         </div>
         <div>
           <img
