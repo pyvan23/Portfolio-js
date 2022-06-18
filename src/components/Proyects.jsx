@@ -28,10 +28,10 @@ export const Proyects = () => {
                 className="rounded-md duration-100 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="bg-gray-500 hover:bg-black text-white font-bold py-2 px-4 rounded">
+                <button className="bg-gray-600 hover:bg-black text-white font-bold py-2 px-4 rounded">
                   Demo
                 </button>
-                <button className="bg-gray-500 hover:bg-black text-white font-bold py-2 px-4 rounded  m-4 ">
+                <button className="bg-gray-600 hover:bg-black text-white font-bold py-2 px-4 rounded  m-4 ">
                   Code
                 </button>
               </div>

@@ -6,10 +6,13 @@ export const Contact = () => {
 
   return (
     <div  name="contact"
-    className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800">
-      <h2>Contact</h2>
+    className="flex justify-between items-center w-full h-20 text-white bg-black ">
+      <button  className="bg-gray-600 hover:bg-gray-800 text-white font-bold  py-1 px-2 rounded inline-flex items-center m-4">
+  <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
+  <span>Resume</span>
+</button>
       <a href={`mailto:${contact}`}>
-        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+        <button className="bg-gray-600 hover:bg-gray-800 text-white font-bold  py-1 px-2 rounded inline-flex items-center m-4">
           Email me!
         </button>
       </a>

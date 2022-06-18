@@ -1,7 +1,6 @@
 import { About } from "./components/About";
 import { Contact } from "./components/Contact";
 import { Home } from "./components/Home";
-import { LinkSocial } from "./components/LinkSocial";
 import { NavBar } from "./components/NavBar";
 import { Proyects } from "./components/Proyects";
 
@@ -11,9 +10,8 @@ function App() {
       <NavBar />
       <Home />
       <About />
-      <Proyects/>
+      <Proyects />
       <Contact />
-      <LinkSocial />
     </div>
   );
 }
