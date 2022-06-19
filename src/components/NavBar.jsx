@@ -19,9 +19,13 @@ export const NavBar = () => {
       id: 3,
       link: "proyects",
     },
-   
     {
       id: 4,
+      link: "skills",
+    },
+
+    {
+      id: 5,
       link: "contact",
     },
   ];
@@ -29,18 +33,24 @@ export const NavBar = () => {
   return (
     <div className="flex justify-between items-center w-full h-20 text-white bg-black  fixed">
       <div>
-      <ul className="flex flex-row px-4  ">
-        <li className="px-2 hover:scale-105 duration-200">
-          <a href="https://www.linkedin.com/in/ivanmalvarez" className="flex justify-between items-center w-full text-white ">
-            <FaLinkedin size={30} />
-          </a>
-        </li>
-        <li className="hover:scale-105 duration-200">
-          <a href="https://github.com/pyvan23"   className="flex  justify-between items-center w-full text-white ">
-            <FaGithub size={30} />
-          </a>
-        </li>
-      </ul>
+        <ul className="flex flex-row px-4  ">
+          <li className="px-2 hover:scale-105 duration-200">
+            <a
+              href="https://www.linkedin.com/in/ivanmalvarez"
+              className="flex justify-between items-center w-full text-white "
+            >
+              <FaLinkedin size={30} />
+            </a>
+          </li>
+          <li className="hover:scale-105 duration-200">
+            <a
+              href="https://github.com/pyvan23"
+              className="flex  justify-between items-center w-full text-white "
+            >
+              <FaGithub size={30} />
+            </a>
+          </li>
+        </ul>
       </div>
 
       <ul className="hidden md:flex">
@@ -49,10 +59,9 @@ export const NavBar = () => {
             key={id}
             className="px-4 cursor-pointer capitalize font-medium text-white hover:scale-105 duration-200"
           >
-             <Link to={link} smooth duration={500}>
+            <Link to={link} smooth duration={500}>
               {link}
             </Link>
-            
           </li>
         ))}
       </ul>

@@ -14,10 +14,7 @@ export const Home = () => {
             I'm Ivan a Fullstack Web Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Repudiandae, ipsa. Tempora, eos! Eos, exercitationem molestias.
-            Alias, inventore, exercitationem iste amet possimus dolorem veniam
-            culpa, corporis minima nisi sed ea doloribus.
+          Hello, I'm a fullstack developer in JavaScript on the stack (MERN), I have management of different libraries and frameworks, I'm passionate about finding solutions, researching and above all things learning all the time about different technologies and tools.
           </p>
           
         </div>

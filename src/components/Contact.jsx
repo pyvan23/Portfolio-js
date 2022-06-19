@@ -10,7 +10,7 @@ export const Contact = () => {
       name="contact"
       className="flex justify-between items-center w-full h-20 text-white bg-black "
     >
-      <button className="bg-gray-800 hover:bg-gray-800 text-white font-bold  py-1 px-2 rounded inline-flex items-center m-4">
+      <button className="bg-gray-800 hover:bg-gray-900 text-white font-bold  py-1 px-2 rounded inline-flex items-center m-4">
         <a href={resume}  target="_blank"  rel="noopener noreferrer" download="nombre_pretendido_del archivo.pdf">
           Resume
         </a>
@@ -18,7 +18,7 @@ export const Contact = () => {
 
      
       <a href={`mailto:${contact}`}>
-        <button className="bg-gray-600 hover:bg-gray-800 text-white font-bold  py-1 px-2 rounded inline-flex items-center m-4">
+        <button className="bg-gray-800 hover:bg-gray-900 text-white font-bold  py-1 px-2 rounded inline-flex items-center m-4">
           Email me!
         </button>
       </a>

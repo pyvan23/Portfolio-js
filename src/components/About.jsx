@@ -8,18 +8,12 @@ export const About = () => {
           <p className="text-3xl font-bold ">About</p>
         </div>
         <p className="text-xl mt-20">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-          quia, facilis illo ex blanditiis reiciendis porro libero consectetur
-          aspernatur, praesentium aliquid aut quae accusamus id consequatur,
-          iure quibusdam enim illum.
+        I am currently finishing my programming degree at the Teclab Higher Institute.
+I acquired experience in backend development at the Alkemy academy when we made a website for an NGO with a team of 8 people, where scrum was used as a work methodology, the technologies used for the project were node.js, express, mysql with sequelize like ORM and cypress for testing.
+I have also developed other projects with the complete MERN stack, MongoDb, Express.js, React.js, Node.js.
         </p>
         <br />
-        <p className="text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quaerat
-          quas vitae suscipit sit amet possimus quis ratione! Dolores placeat,
-          similique explicabo sed consequuntur harum magnam consectetur ea
-          impedit possimus.
-        </p>
+       
       </div>
     </div>
   );
