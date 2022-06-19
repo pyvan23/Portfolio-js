@@ -31,12 +31,12 @@ export const NavBar = () => {
       <div>
       <ul className="flex flex-row px-4  ">
         <li className="px-2 hover:scale-105 duration-200">
-          <a href="" className="flex justify-between items-center w-full text-white ">
+          <a href="https://www.linkedin.com/in/ivanmalvarez" className="flex justify-between items-center w-full text-white ">
             <FaLinkedin size={30} />
           </a>
         </li>
         <li className="hover:scale-105 duration-200">
-          <a href=""   className="flex  justify-between items-center w-full text-white ">
+          <a href="https://github.com/pyvan23"   className="flex  justify-between items-center w-full text-white ">
             <FaGithub size={30} />
           </a>
         </li>
