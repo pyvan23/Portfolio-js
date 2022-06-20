@@ -11,10 +11,11 @@ export const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm Ivan a Fullstack Web Developer
+            I'm Ivan a 
+            Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-          Hello, I'm a fullstack developer in JavaScript on the stack (MERN), I have management of different libraries and frameworks, I'm passionate about finding solutions, researching and above all things learning all the time about different technologies and tools.
+          Hello, I'm a full stack developer in JavaScript on the stack (MERN), I have management of different libraries and frameworks, I'm passionate about finding solutions, researching and above all things learning all the time about different technologies and tools.
           </p>
           
         </div>
