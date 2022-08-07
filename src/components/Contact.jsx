@@ -2,6 +2,7 @@ import React from "react";
 import resume from "../assets/FullStack-React-Node.pdf";
 
 export const Contact = () => {
+  
   const contact = "ivanmiguelalvarez@gmail.com";
   if (!contact) return null;
 

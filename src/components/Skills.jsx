@@ -4,10 +4,11 @@ import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import node from "../assets/node.png";
-
+import docker from "../assets/docker.png"
 import mongo3 from "../assets/mongo3.png";
 
 export const Skills = () => {
+  
   const skills = [
     {
       id: 1,
@@ -39,6 +40,11 @@ export const Skills = () => {
       src: node,
       title: "Node JS",
     },
+    {
+      id:7,
+      src:docker,
+      title:"docker",
+    }
   ];
   return (
     <div
