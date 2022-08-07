@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0883d7c3.css",
-    "main.js": "/static/js/main.87023f7d.js",
+    "main.js": "/static/js/main.b683fcaf.js",
     "static/media/node-notes-app.png": "/static/media/node-notes-app.a01b712bec400446f20a.png",
     "static/media/gif-expert-app.png": "/static/media/gif-expert-app.333f64a11aabbc9dee23.png",
     "static/media/html5.png": "/static/media/html5.70c400f7cade849567d3.png",
@@ -10,14 +10,15 @@
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/html.png": "/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/docker.png": "/static/media/docker.6b7b58194eff677ef06d.png",
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.0883d7c3.css.map": "/static/css/main.0883d7c3.css.map",
-    "main.87023f7d.js.map": "/static/js/main.87023f7d.js.map"
+    "main.b683fcaf.js.map": "/static/js/main.b683fcaf.js.map"
   },
   "entrypoints": [
     "static/css/main.0883d7c3.css",
-    "static/js/main.87023f7d.js"
+    "static/js/main.b683fcaf.js"
   ]
 }
