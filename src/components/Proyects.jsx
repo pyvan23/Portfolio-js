@@ -31,17 +31,17 @@ export const Proyects = () => {
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {proyects.map(({ id, src,demo,repo }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+            <div key={ id } className="shadow-md shadow-gray-600 rounded-lg">
               <img
-                src={src}
+                src={ src }
                 alt="proyects"
                 className="rounded-md duration-100 hover:scale-105"
               />
                <div className="flex items-center justify-center">
-               <button type="button" className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800 w-1/2 px-6 py-3 m-4">
+               <button type="button" className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm  text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800 w-1/2 px-6 py-3 m-4">
                   <a href={demo} >Demo</a>
                 </button>
-                <button  type="button" className="w-1/2 px-6 py-3 m-4 text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800"> 
+                <button  type="button" className="w-1/2  m-4 text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800"> 
                  <a href={repo}>Repo</a>
                 </button>
               </div>
