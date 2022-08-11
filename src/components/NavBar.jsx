@@ -20,21 +20,18 @@ export const NavBar = () => {
       id: 1,
       link: "home",
     },
+   
     {
       id: 2,
-      link: "contact me",
-    },
-    {
-      id: 3,
       link: "proyects",
     },
     {
-      id: 4,
+      id: 3,
       link: "skills",
     },
 
     {
-      id: 5,
+      id: 4,
       link: "about",
     },
   ];
