@@ -10,7 +10,7 @@ export const About = () => {
         <p className="text-xl mt-20">
         I am currently finishing my programming degree at the Teclab Higher Institute.
 I acquired experience in backend development at the Alkemy academy when we made a website for an NGO with a team of 8 people, where scrum was used as a work methodology, the technologies used for the project were node.js, express, mysql with sequelize like ORM,git,gitgub and cypress for testing.
-I have also developed other projects with the complete MERN stack, MongoDb, Express.js, React.js, Node.js.
+I am also currently developing a project with django as a team for a client.
         </p>
         <br />
        

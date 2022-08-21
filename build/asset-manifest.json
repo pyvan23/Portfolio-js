@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e5472b9b.css",
-    "main.js": "/static/js/main.9c3f9b4e.js",
+    "main.js": "/static/js/main.d3a0f74b.js",
     "static/media/gif-expert-app.png": "/static/media/gif-expert-app.333f64a11aabbc9dee23.png",
     "static/media/html5.png": "/static/media/html5.70c400f7cade849567d3.png",
     "static/media/CV-Ivan-Alvarez.pdf": "/static/media/CV-Ivan-Alvarez.285ec429fa7d098611e5.pdf",
@@ -11,14 +11,13 @@
     "static/media/journal-firebase.png": "/static/media/journal-firebase.4d09f4c0928d32edd1b5.png",
     "static/media/html.png": "/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/docker.png": "/static/media/docker.6b7b58194eff677ef06d.png",
-    "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.e5472b9b.css.map": "/static/css/main.e5472b9b.css.map",
-    "main.9c3f9b4e.js.map": "/static/js/main.9c3f9b4e.js.map"
+    "main.d3a0f74b.js.map": "/static/js/main.d3a0f74b.js.map"
   },
   "entrypoints": [
     "static/css/main.e5472b9b.css",
-    "static/js/main.9c3f9b4e.js"
+    "static/js/main.d3a0f74b.js"
   ]
 }
