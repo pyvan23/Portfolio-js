@@ -6,6 +6,8 @@ import reactImage from "../assets/react.png";
 import node from "../assets/node.png";
 import docker from "../assets/docker.png"
 import mongo3 from "../assets/mongo3.png";
+import firebase from "../assets/descarga.png"
+import mysql from "../assets/mysql.png"
 
 export const Skills = () => {
   
@@ -44,6 +46,14 @@ export const Skills = () => {
       id:7,
       src:docker,
       title:"docker",
+    },
+    {id:8,
+      src:firebase,
+      title:"firebase",
+    },
+    {id:9,
+      src:mysql,
+      title:"mysql",
     }
   ];
   return (

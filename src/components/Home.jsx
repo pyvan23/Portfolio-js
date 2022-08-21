@@ -17,13 +17,13 @@ export const Home = () => {
             Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md ">
-          Hello, I'm a full stack developer in JavaScript on the stack (MERN), I have management of different libraries and frameworks, I'm passionate about finding solutions, researching and above all things learning all the time about different technologies and tools.
+          Hello, I'm a software developer, I have management of different libraries and frameworks, I'm passionate about finding solutions, researching and above all things learning all the time about different technologies and tools.
           </p>
           
         </div>
         <div>
           <img
-            src={html5Img}
+            src={ html5Img }
             alt="img home"
             className=" rounded-2xl mx-auto w-2/3 md:w-full "
           />

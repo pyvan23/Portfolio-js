@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import { useState } from "react";
 import { FaTimes, FaBars, FaCloudDownloadAlt, FaEnvelope } from "react-icons/fa";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import resume from "../assets/FullStack-React-Node.pdf";
+import resume from "../assets/CV-Ivan-Alvarez.pdf";
 
 
 

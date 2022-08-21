@@ -1,25 +1,26 @@
 import React from "react";
-import gifApp from "../assets/gif-expert-app.png";
-import nodeNoteApp from "../assets/node-notes-app.png";
+import journal from "../assets/journal-firebase.png";
 import alkemy from "../assets/alkemy.png";
+import gif from "../assets/gif-expert-app.png";
 
 export const Proyects = () => {
     const proyects = [
         {
           id: 1,
-          src:gifApp ,
-          demo:'https://pyvan23.github.io/GifExpertApp',
-          repo:'https://github.com/pyvan23/GifExpertApp',
+          src:journal ,
+          demo:'https://journal-app-9d29f.web.app',
+          repo:'https://github.com/pyvan23/Journal',
         },{
           id:2,
-          src:nodeNoteApp,
-          demo:'#',
-          repo:'https://github.com/pyvan23/Node-Notes-App',
-        },{
-          id:3,
           src:alkemy,
           demo:'https://documenter.getpostman.com/view/15547223/UVktoYcg',
           repo:'https://github.com/alkemyTech/OT140-SERVER',
+        },
+        {
+          id:3,
+          src:gif,
+          demo:' https://pyvan23.github.io/GifExpertApp/',
+          repo:'https://github.com/pyvan23/GifExpertApp',
         }]
   return (
     <div name="proyects" className="bg-gradient-to-b from-gray-800 to-gray-900 w-full text-white md:h-screen">
