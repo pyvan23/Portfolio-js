@@ -1,6 +1,6 @@
 import React from "react";
 import html from "../assets/html.png";
-import css from "../assets/css.png";
+
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import node from "../assets/node.png";
@@ -17,41 +17,37 @@ export const Skills = () => {
       src: html,
       title: "HTML",
     },
+   
     {
       id: 2,
-      src: css,
-      title: "CSS",
-    },
-    {
-      id: 3,
       src: javascript,
       title: "JavaScript",
     },
     {
-      id: 4,
+      id: 3,
       src: reactImage,
       title: "React",
     },
     {
-      id: 5,
+      id: 4,
       src: mongo3,
       title: "Mongo",
     },
     {
-      id: 6,
+      id: 5,
       src: node,
       title: "Node JS",
     },
     {
-      id:7,
+      id:6,
       src:docker,
       title:"docker",
     },
-    {id:8,
+    {id:7,
       src:firebase,
       title:"firebase",
     },
-    {id:9,
+    {id:8,
       src:mysql,
       title:"mysql",
     }
