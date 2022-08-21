@@ -1,3 +1,24 @@
+## Portfolio personal ##
+
+Netlify deploy:  https://ivan-portfolio-js.netlify.app
+
+# Tecnologias utilizadas #
+
+-React.js
+-CSS
+-Tailwind
+-Hooks
+-Html5
+-Netlify
+-CRA
+
+
+
+-Es un sitio web desarrollado con React.js, creado con CRA con el objetivo de mostrar cartera de proyectos, informacion sobre mi,
+descarga de cv, contactos como github, linkedin.
+
+#########
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
